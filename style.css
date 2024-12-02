@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: bisque;
+    text-decoration: underline;
+}
+nav{
+    background-color: rgb(109, 54, 14);
+}
+ul{
+    text-align: right;
+}
+ul li{
+    display: inline;
+    font-size: 20px;
+    padding-right: 15px;
+}
+/* main */
+main{
+    height: 300px;
+    text-align: center;
+}
+/* footer */
+footer{
+    background-color: rgb(109, 54, 14);
+    height: 50px;
+    text-align: right;
+}
+footer p{
+    padding: 15px;
+    color: white;
+}
