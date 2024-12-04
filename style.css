@@ -12,7 +12,8 @@ a:hover{
     text-decoration: underline;
 }
 nav{
-    background-color: rgb(109, 54, 14);
+    background-color: black;
+    padding: 10px;
 }
 ul{
     text-align: right;
@@ -23,20 +24,39 @@ ul li{
     padding-right: 15px;
 }
 /* main */
+
 main{
     height: 900px;
     text-align: center;
 }
+.line{
+    height: 30px;
+    background-color: blueviolet;
+}
+.container-text{
+    margin: 80px;
+}
+.portfolio{
+    font-size: 100px;
+}
+.name{
+    font-size: 40px;
+}
 img{
     border-radius: 50%;
+    height: 350px;
+    width: 350px;
 }
 .container{
+    padding-top: 80px;
+    height: 500px;
     display: flex;
     justify-content: center;
+    background-color: rgb(165, 111, 216);
 }
 /* footer */
 footer{
-    background-color: rgb(109, 54, 14);
+    background-color: black;
     height: 50px;
     text-align: right;
 }
