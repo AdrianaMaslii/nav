@@ -34,7 +34,7 @@ main{
 }
 .line{
     height: 30px;
-    background-color: blueviolet;
+    background-color: rgb(165, 111, 216);
 }
 .container-text{
     margin-top: 80px;
@@ -46,6 +46,7 @@ main{
     font-size: 40px;
     font-family: 'Barlow';
 }
+
 img{
     border-radius: 50%;
     height: 400px;
@@ -57,7 +58,7 @@ img{
     height: 500px;
     display: flex;
     justify-content: center;
-    background-color: rgb(165, 111, 216);
+    background-color: rgb(208, 175, 238);
 }
 /* footer */
 footer{
