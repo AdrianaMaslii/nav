@@ -29,7 +29,6 @@ ul li{
 /* main */
 
 main{
-    height: 900px;
     text-align: center;
 }
 .line{
@@ -66,7 +65,12 @@ footer{
     height: 50px;
     text-align: right;
 }
-footer p{
+.copy{
     padding: 15px;
     color: white;
+}
+
+.description{
+    width: 40%;
+    margin: auto;
 }
