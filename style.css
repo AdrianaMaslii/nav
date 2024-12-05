@@ -65,6 +65,9 @@ img{
     bottom: 60px;
     left: 850px;
 }
+.about-me{
+    margin-bottom: 10px;
+}
 /* footer */
 footer{
     background-color: black;
@@ -84,6 +87,7 @@ footer{
 }
 
 .description{
-    width: 50%;
+    width: 40%;
     margin: 0 auto 200px;
+    text-align: justify;
 }
