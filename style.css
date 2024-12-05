@@ -12,8 +12,7 @@ a{
     color: white;
 }
 a:hover{
-    color: bisque;
-    text-decoration: underline;
+    color: rgb(208, 175, 238);
 }
 nav{
     background-color: black;
@@ -54,11 +53,17 @@ img{
     margin-right: 250px;
 }
 .container{
+    position: relative;
     padding-top: 100px;
     height: 500px;
     display: flex;
     justify-content: center;
     background-color: rgb(208, 175, 238);
+}
+.img-container{
+    position: absolute;
+    bottom: 60px;
+    left: 850px;
 }
 /* footer */
 footer{
@@ -79,6 +84,6 @@ footer{
 }
 
 .description{
-    width: 40%;
-    margin: auto;
+    width: 50%;
+    margin: 0 auto 200px;
 }
