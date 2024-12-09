@@ -53,7 +53,6 @@ img{
     margin-right: 250px;
 }
 .container{
-    position: relative;
     padding-top: 100px;
     height: 500px;
     display: flex;
@@ -61,9 +60,7 @@ img{
     background-color: rgb(208, 175, 238);
 }
 .img-container{
-    position: absolute;
-    bottom: 170px;
-    left: 850px;
+    margin: 30px 0 100px;
 }
 .about-me{
     margin-bottom: 10px;
