@@ -46,7 +46,7 @@ main{
     font-family: 'Barlow';
 }
 
-img{
+.portfolio-img{
     border-radius: 50%;
     height: 400px;
     width: 400px;
@@ -73,6 +73,7 @@ footer{
 }
 
 .links{
+    border-radius: 50%;
     margin-right: 20px;
     height: 50px;
     width: 50px;
@@ -88,3 +89,28 @@ footer{
     margin: 0 auto 200px;
     text-align: justify;
 }
+
+/*tablet*/
+@media (max-width:768px){
+    .container{
+        position: relative;
+    }
+    .portfolio-img{
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        top: 40px;
+        left: 240px;
+    }    
+    .container-text{
+        position: absolute;
+        bottom: 20px;
+    }
+    .portfolio{
+        font-size: 60px;
+    }
+    .name{
+        font-size: 30px;
+    }
+
+ }
